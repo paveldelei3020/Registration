@@ -63,10 +63,10 @@ img {
     display: flex;
     flex-direction: column;
     padding: 10px 40px;
-    background-color: rgb(84, 84, 151);
+    background-image: url(./assets-img/background.jpg);
     background-size: auto;
 }
-
+ 
 h1 {
     font-size: 35px;
 }
@@ -111,4 +111,5 @@ input:hover {
     border-radius: 5%;
     cursor: pointer;
 }
+
 
