@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #48a19d;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    height: 60px;
+    border-radius: 25%;
+}
+
+.a1:hover .profile-menu {
+    display: block;
+    position: absolute;
+    left: 75px;
+    top: 45px;
+}
+
+.profile-menu {
+    display: none;
+    background-color: rgb(72, 161, 157);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+label{
+    
+}
+
