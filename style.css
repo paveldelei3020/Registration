@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body{
-    margin: 0;
+    font-family: 'Oswald';
+    background-image: url(./assets-img/fon2.jpg);
+    background-size: 1300px 1000px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #48a19d;
+    background-color: rgba(59, 54, 55, 0.418);
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .menu {
@@ -26,7 +30,7 @@ body{
 
 p {
     font-size: 18px;
-    color: black;
+    color: white;
 }
 
 a {
@@ -53,45 +57,43 @@ img {
 
 .profile-menu {
     display: none;
-    background-color: rgb(72, 161, 157);
+    background-color: black;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
-
 }
 
 .main {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     padding: 10px 40px;
-    background-image: url(./assets-img/background.jpg);
-    background-size: auto;
 }
  
 h1 {
     font-size: 35px;
+    color: black;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.644);
+    margin-top: 150px;
+    padding: 30px;
+    color: ;
 }
 
 label {
     font-size: 20px;
     padding: 5px;
-    color: white;
+    color: black;
 }
 
 input{
+    border: 1px solid black;
     background: none;
-    border: none;
     margin-bottom: 25px;
     color: white;
-    appearance: none;
-}
-
-input:hover {
-    background: none;
     appearance: none;
 }
 
@@ -100,16 +102,18 @@ input:hover {
     justify-content: center;
 }
 
-.button-reg {
-    width: 400px;
-    height: 200px;
-    font-weight: bold;
-    font-size: 35px;
-    border: none;
-    background-image: url(./assets-img/confirm.jpg);
-    background-size: 400px 200px;
-    border-radius: 5%;
-    cursor: pointer;
+.form-img {
+    width: 35%;
 }
 
+.form-img-flex {
+    display: flex;
+    justify-content: center;
+}
 
+.button-reg {
+    background: none;
+    width: 25%;
+    height: 40px;
+    
+}
